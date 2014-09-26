@@ -23,7 +23,7 @@ j5Scout.prototype.init = function(next) {
     });
 
     self.discover(LED, led);
-//    self.discover(Sound, sound);
+    self.discover(Sound, sound);
     next();
   });
 };
